@@ -1,9 +1,22 @@
-class Test{
-    constructor(){
-        this.a = 'hello'
-    }
-}
+import 'babel-polyfill'
+// import './class/lesson-01/let-const'
+//import './class/lesson-02/deconstruct'
+// import './class/lesson-03/reg'
+// import './class/lesson-04/string'
+// import './class/lesson-05/Number'
+// import './class/lesson-06/Array'
+// import './class/lesson-07/Function'
+// import './class/lesson-08/Object'
+// import './class/lesson-09/Symbol'
+// import './class/lesson-10/Set'
+// import './class/lesson-11/Proxy&Reflect'
+// import './class/lesson-12/Class'
+// import './class/lesson-13/Promise'
+// import './class/lesson-14/Iterator'
+// import './class/lesson-15/Generator'
+// import './class/lesson-16/Decorator'
+// import {A} from './class/lesson-17/Module'
 
-let test = new Test()
-
-document.body.innerHTML = test.a
+// import * as lesson17 from './class/lesson-17/Module'
+import lesson17 from './class/lesson-17/Module'
+console.log(lesson17.Test)
